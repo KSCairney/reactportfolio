@@ -1,25 +1,60 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Title from './components/title';
+import ParallaxCity from './components/city';
+import Nav from './components/nav';
+import Projects from './components/projects';
+import Bio from './components/bio';
+import Links from './components/links';
+import Contact from './components/contact';
 
 class App extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      identifier: 0
+    }
+  }
+
+  prevProject = () => {
+    if (this.state.identifier === 0) {
+      this.setState({
+        identifier: 4
+      })
+    } else {
+      this.setState({
+        identifier: this.state.identifier - 1
+      })
+    }
+  }
+
+  nextProject = () => {
+    if (this.state.identifier === 4) {
+      this.setState({
+        identifier: 0
+      })
+    } else {
+      this.setState({
+        identifier: this.state.identifier + 1
+      })
+    }
+  }
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <ParallaxCity city="la" />
+        <Title />
+        <Nav />
+        <ParallaxCity city="la"/>
+        <Projects identifier={this.state.identifier} clickLeft={this.prevProject} clickRight={this.nextProject} />
+        <ParallaxCity city="london"/>
+        <Bio />
+        <ParallaxCity city="tokyo"/>
+        <Links />
+        <ParallaxCity city="cork"/>
+        <Contact />
+        <ParallaxCity city="zibo"/>
       </div>
     );
   }

@@ -1,0 +1,101 @@
+.la {
+  background-image: url("../images/la.jpg");
+  height: 400px; 
+  width: 100%;  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tokyo {
+  background-image: url("../images/tokyo.jpg");
+  height: 400px; 
+  width: 100%;  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.london {
+  background-image: url("../images/london.jpg");
+  height: 400px; 
+  width: 100%;  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cork {
+  background-image: url("../images/cork.jpg");
+  height: 400px; 
+  width: 100%;  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.zibo {
+  background-image: url("../images/zibo.jpg");
+  height: 400px; 
+  width: 100%;  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .la {
+    background-image: url("../images/la.jpg");
+    height: 250px; 
+    width: 100%;  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .london {
+    background-image: url("../images/london.jpg");
+    height: 250px; 
+    width: 100%;  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .tokyo {
+    background-image: url("../images/tokyo.jpg");
+    height: 250px; 
+    width: 100%;  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .cork {
+    background-image: url("../images/cork.jpg");
+    height: 250px; 
+    width: 100%;  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .zibocityscape {
+    background-image: url("../images/zibo.jpg");
+    height: 250px; 
+    width: 100%;  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Nixie+One|Nothing+You+Could+Do');
+
+p {
+  font-family: 'Nixie One', sans-serif;
+}
+
+.subTitle {
+  margin: -20px 0 10px 0;
+  font-size: 1.0em;
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+.mainTitle {
+  margin-top: 10px;
+  font-size: 2.0em;
+  font-family: 'Nixie One', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .subTitle {
+    margin-top: -10px;
+    font-size: .8em;
+  }
+
+  .mainTitle {
+    margin-top: 10px;
+    font-size: 1.5em;
+  }
+}
