@@ -1,13 +1,24 @@
 { "projects": [
-  { "title" : "World Cup Football 1",
-  "language" : "JavaScript" },
-  { "title" : "World Cup Football 2",
-    "language" : "JavaScript" },
-  { "title" : "World Cup Football 3",
-    "language" : "JavaScript" },
-  { "title" : "World Cup Football 4",
-    "language" : "JavaScript" },
-  { "title" : "World Cup Football 5",
-    "language" : "JavaScript" }
-]
+  { "title" : "Neko Jita",
+  "language" : "JavaScript, Reactjs, Nodejs,  CSS, Bootstrap, GitHub, Heroku",
+  "url" : "https://intense-ridge-47478.herokuapp.com/" },
+  { "title" : "Read Along",
+  "language" : "JavaScript, Reactjs, Nodejs, CSS, GitHub, Heroku",
+  "url" : "https://safe-gorge-51427.herokuapp.com/" },
+  { "title" : "The Holy GrALE",
+  "language" : "Ruby, Ruby-On-Rails, JavaScript, JQuery, HTML, CSS, GitHub, Heroku",
+  "url" : "https://damp-retreat-24388.herokuapp.com/" },
+  { "title" : "Your Next Favorite Book",
+  "language" : "JavaScript, HTML, CSS, GitHub",
+  "url" : "https://kscairney.github.io/yournextbook/" },
+  { "title" : "World Cup Football Pick'em",
+  "language" : "Ruby, Ruby-On-Rails, JavaScript, JQuery, HTML, CSS, GitHub, Heroku",
+  "url" : "https://wcfootball.herokuapp.com/" },
+  { "title" : "Shopping Time",
+  "language" : "Angularjs, JavaScript, Nodejs, HTML, CSS, GitHub, FireBase",
+  "url" : "https://shopping-time-99c16.firebaseapp.com/" },
+  { "title" : "Nancy For Rosemead",
+  "language" : "Ruby, Ruby-On-Rails, JavaScript, JQuery, HTML, CSS, Bitbucket, Heroku",
+  "url" : "http://www.nancyforrosemead.com/" }
+  ]
 }

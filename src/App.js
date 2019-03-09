@@ -7,19 +7,22 @@ import Projects from './components/projects';
 import Bio from './components/bio';
 import Links from './components/links';
 import Contact from './components/contact';
+import projList from './data/projects.json';
+import 'bootstrap/dist/css/bootstrap.css';
 
 class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      identifier: 0
+      identifier: 0,
+      numberOfProj: projList.projects.length - 1
     }
   }
 
   prevProject = () => {
     if (this.state.identifier === 0) {
       this.setState({
-        identifier: 4
+        identifier: this.state.numberOfProj
       })
     } else {
       this.setState({
@@ -29,7 +32,7 @@ class App extends Component {
   }
 
   nextProject = () => {
-    if (this.state.identifier === 4) {
+    if (this.state.identifier === this.state.numberOfProj) {
       this.setState({
         identifier: 0
       })

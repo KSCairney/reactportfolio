@@ -3,45 +3,24 @@ import './projects.css';
 import projList from '../data/projects.json';
 
 class Projects extends Component {
-  // constructor(props){
-  //   super(props);
-  //   this.state = {
-  //     identifier: 1
-  //   }
-  // }
-
-  // prevProject = () => {
-  //   if (this.state.identifier === 1) {
-  //     this.setState({
-  //       identifier: 10
-  //     })
-  //   } else {
-  //     this.setState({
-  //       identifier: this.state.identifier - 1
-  //     })
-  //   }
-  // }
-
-  // nextProject = () => {
-  //   if (this.state.identifier === 5) {
-  //     this.setState({
-  //       identifier: 1
-  //     })
-  //   } else {
-  //     this.setState({
-  //       identifier: this.state.identifier + 1
-  //     })
-  //   }
-  // }
-
+  
   render() {
     let theTitle = projList.projects[this.props.identifier].title;
+    let theLanguage = projList.projects[this.props.identifier].language;
+    let theLink = projList.projects[this.props.identifier].url;
 
     return (
       <div className="row projNav">
-      <button onClick={this.props.clickLeft}>previous</button>
-      {theTitle}
-      <button onClick={this.props.clickRight}>next</button>
+        <div className="col-xl-3">
+          <button onClick={this.props.clickLeft}>prev</button>
+        </div>
+        <div className="projDetails col-xl-6">
+          <a href={theLink}>{theTitle}</a>
+          <p>{theLanguage}</p>
+        </div>
+        <div className="col-xl-3">
+          <button onClick={this.props.clickRight}>next</button>
+        </div>
     </div>
     );
   }
