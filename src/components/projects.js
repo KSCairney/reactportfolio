@@ -12,14 +12,14 @@ class Projects extends Component {
     return (
       <div className="row projNav">
         <div className="col-xl-3">
-          <button onClick={this.props.clickLeft}>prev</button>
+          <button onClick={this.props.clickLeft}>&lt; prev</button>
         </div>
         <div className="projDetails col-xl-6">
           <a href={theLink}>{theTitle}</a>
           <p>{theLanguage}</p>
         </div>
         <div className="col-xl-3">
-          <button onClick={this.props.clickRight}>next</button>
+          <button onClick={this.props.clickRight}>next &gt;</button>
         </div>
     </div>
     );
