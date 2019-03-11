@@ -4,8 +4,8 @@ import './title.css';
 class Title extends Component {
   render() {
     return (
-      <div>
-        <p className="mainTitle">K e n n e t h _ C a i r n e y</p>
+      <div id="home">
+        <p className="mainTitle">K e n n e t h &nbsp; C a i r n e y</p>
         <p className="subTitle">JavaScript Developer, Writer, Archaeologist</p>
       </div>
     );

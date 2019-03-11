@@ -13,20 +13,34 @@ div button:hover {
   font-family: 'Nothing You Could Do', cursive;
 }
 
-.projDetails a {
-  color: black;
-  font-family: 'Nixie One', sans-serif;
-  font-size: 1.6em;
+.projDetails a img {
+  border: white solid 4px;
+  height: 300px;
+  width: auto;
   margin-top: 20px;
 }
 
-.projDetails a:hover {
-  color: black;
-  font-family: 'Nothing You Could Do', cursive;
-  font-size: 1.6em;
-  text-decoration: none;
+.projDetails a img:hover {
+  border: black solid 4px;
+  height: 300px;
+  width: auto;
+  margin-top: 20px;
 }
 
-.projDetails p {
-  font-size: 1.2em;
+.projLanguages {
+  font-size: 1.1em;
+  font-family: 'Nixie One', sans-serif;
+}
+
+.projName {
+  color: black;
+  font-family: 'Nixie One', sans-serif;
+  font-size: 2.0em;
+  margin-top: 20px;
+}
+
+.section {
+  font-family: 'Nothing You Could Do', cursive;
+  color: black;
+  font-size: 1.5em;
 }
