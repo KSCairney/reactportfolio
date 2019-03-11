@@ -1,7 +1,17 @@
+* { 
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
 
 .projNav button {
   display: inline;
+}
+
+body, #root{
+  margin: 0 !important;
+  overflow-x: hidden;
 }

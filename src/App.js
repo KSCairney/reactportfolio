@@ -7,6 +7,7 @@ import Projects from './components/projects';
 import Bio from './components/bio';
 import Links from './components/links';
 import Contact from './components/contact';
+import Footer from './components/footer';
 import projList from './data/projects.json';
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -58,6 +59,7 @@ class App extends Component {
         <ParallaxCity city="cork"/>
         <Contact />
         <ParallaxCity city="zibo"/>
+        <Footer />
       </div>
     );
   }
