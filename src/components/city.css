@@ -1,7 +1,7 @@
 .la {
   background-image: url("../images/la.jpg");
   height: 200px; 
-  width: 100%;  
+  width: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -48,10 +48,10 @@
   background-size: cover;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   .la {
-    background-image: url("../images/la.jpg");
-    height: 125px; 
+    background-image: url("../images/lasmall.jpg");
+    height: 70px; 
     width: 100%;  
     background-attachment: fixed;
     background-position: center;
@@ -60,40 +60,36 @@
   }
 
   .london {
-    background-image: url("../images/london.jpg");
-    height: 125px; 
+    background-image: url("../images/londonsmall.jpeg");
+    height: 70px; 
     width: 100%;  
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .tokyo {
-    background-image: url("../images/tokyo.jpg");
-    height: 125px; 
+    background-image: url("../images/tokyosmall.jpg");
+    height: 70px; 
     width: 100%;  
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .cork {
-    background-image: url("../images/cork.jpg");
-    height: 125px; 
+    background-image: url("../images/corksmall.jpg");
+    height: 70px; 
     width: 100%;  
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
-  .zibocityscape {
-    background-image: url("../images/zibo.jpg");
-    height: 125px; 
+  .zibo {
+    background-image: url("../images/corksmall.jpg");
+    height: 70px; 
     width: 100%;  
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
