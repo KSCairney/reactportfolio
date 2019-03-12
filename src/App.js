@@ -47,18 +47,18 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <ParallaxCity city="la" />
+        <ParallaxCity city="la" linker="home"/>
         <Title />
         <Nav />
-        <ParallaxCity city="la"/>
+        <ParallaxCity city="la" linker="projects"/>
         <Projects identifier={this.state.identifier} clickLeft={this.prevProject} clickRight={this.nextProject} />
-        <ParallaxCity city="london"/>
-        <Bio />
-        <ParallaxCity city="tokyo"/>
+        <ParallaxCity city="london" linker="links"/>
         <Links />
-        <ParallaxCity city="cork"/>
+        <ParallaxCity city="tokyo" linker="bio"/>
+        <Bio />
+        <ParallaxCity city="cork" linker="contact"/>
         <Contact />
-        <ParallaxCity city="zibo"/>
+        <ParallaxCity city="zibo" linker="foot"/>
         <Footer />
       </div>
     );

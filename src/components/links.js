@@ -6,7 +6,7 @@ class Links extends Component {
     return (
       <div id="links">
         <div className="section">Links</div>
-        <div className="navigator">
+        <div className="linkSet">
           <a href="https://github.com/KSCairney" className="github">GitHub</a>
           <p> | </p>
           <a href="https://www.linkedin.com/in/kscairney" className="linkedin">LinkedIn</a>

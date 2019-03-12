@@ -15,20 +15,20 @@ div button:hover {
 
 .projDetails a img {
   border: white solid 4px;
-  height: 300px;
+  height: 200px;
   width: auto;
   margin-top: 20px;
 }
 
 .projDetails a img:hover {
   border: black solid 4px;
-  height: 300px;
+  height: 200px;
   width: auto;
   margin-top: 20px;
 }
 
 .projLanguages {
-  font-size: 1.1em;
+  font-size: 1.0em;
   font-family: 'Nixie One', sans-serif;
 }
 

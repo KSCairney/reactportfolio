@@ -11,7 +11,7 @@ class Projects extends Component {
     let thePicture = require('../images/' + projList.projects[this.props.identifier].image);
 
     return (
-      <div id="projects">
+      <div id="projects" className="space">
         <div className="section">Projects</div>
         <div className="row projNav">
           <div className="col-xl-3">
